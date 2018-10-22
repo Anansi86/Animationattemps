@@ -1,0 +1,23 @@
+.content {
+    font-size: .25rem;
+    animation-name: moveIn;
+    animation-duration: 5s;
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 500;
+}
+
+@keyframes moveIn {
+    from {
+        color: green;
+        font-size: 1.5rem;
+    }
+
+    50% {
+        color: goldenrod;
+        font-size: 5rem;
+    }
+    to {
+        color: purple;
+        font-size: 4rem;
+    }
+}
